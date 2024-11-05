@@ -43,7 +43,7 @@ function Receipe() {
                     ingredients: form.ingredients,
                     instruction: form.instruction,
                     description: form.description,
-                    image: form.image // include the image in the mutation variables
+                    image: form.image 
                 }
             });
             alert("Recipe submitted successfully!");
