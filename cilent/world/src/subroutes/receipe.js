@@ -24,7 +24,7 @@ function Receipe() {
     const handleImageChange = (e) => {
         const selectedFile = e.target.files[0];
         const fileUrl = URL.createObjectURL(selectedFile);
-        setFile(fileUrl); // Update the image URL in the parent component
+        setFile(fileUrl); 
 
         // Convert the file to base64 if your backend accepts base64 data
         const reader = new FileReader();
