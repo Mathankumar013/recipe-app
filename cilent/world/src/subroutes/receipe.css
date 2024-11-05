@@ -1,0 +1,25 @@
+.receipe-display{
+    height: 900px;
+    width: 96%;
+    background-color: lightskyblue;
+    position: relative;
+    top: 90px;
+    left: 10px;
+    border-radius: 20px;
+}
+.text-center{
+    padding: 20px 0px 0px 0px ;
+    font-size: 30px;
+}
+.form-receipe{
+    padding: 30px 50px 10px 50px;
+}
+.bottom-box{
+    margin-bottom: 20px;
+}
+.btn-styles{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
